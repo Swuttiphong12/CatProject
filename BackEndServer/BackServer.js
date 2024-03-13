@@ -12,7 +12,7 @@ const sequelize = new Sequelize ('database' ,'username' ,'password', {
     dialect: 'sqlite',
     storage: './Database/Catshop.sqlite'
 });
-
+ 
 
 const Cat = sequelize.define('cat', {
     cat_id: {
